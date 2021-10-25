@@ -300,7 +300,7 @@
     function cargar_contenido(contenedor, contenido) {
       $("#" + contenedor).load(contenido);
     }
-    $.widget.bridge('uibutton', $.ui.button);
+    //$.widget.bridge('uibutton', $.ui.button);
   </script>
   <!--   Core JS Files   -->
   <script src="../assets/js/core/jquery.min.js"></script>
